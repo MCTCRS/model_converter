@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World</title>
+	
+	<style>
+	
+    @font-face {
+      font-family: 'Minecraft'; /* Name the font */
+      src: url('fonts/Minecraft.ttf') format('truetype'); /* Link to the font file */
+    }
+    
+    body {
+    font-family: 'Minecraft', sans-serif; /* Apply the custom font */
+	color:white;
+	text-shadow: 
+		2px 2px 5px rgba(0, 0, 0, 50); /* First shadow layer */
+
+    }
+
+	
+	</style>
+
+	
+
+
+
+
+</head>
+
+<body style="background-color: #28242c">
+
+<!-- Heads -->
+ <h1 style="text-align: center; font-size: 50px;">Model_display</h1>
+ <p style="text-align: center;">* ( The_CommanderRS's WIP project )</p>
+ <p style="text-align: center;">[Place the holder]</p>
+ <!-- end of Heads-->
+
+
+ 
+<!-- files -->
+ <p style="text-align: center; margin-top: 50px;">upload .bbmodel</p>
+ <form>
+	<input type="file" id="fileInput" style="margin: 0 auto; display: block;" accept=".bbmodel">
+</form>
+
+<button type="button" style="margin: 0 auto; display: block; position: relative; top: 20px;" onclick="ConvertClicked()">Convert</button>
+<script src="scripts/convert_button.js"></script>
+<!-- end of files -->
+
+
+</body>
+
+</html>
